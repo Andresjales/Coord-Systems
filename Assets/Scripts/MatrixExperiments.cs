@@ -8,7 +8,7 @@ public class MatrixExperiments : MonoBehaviour
 
     [SerializeField] private float rotationZ = 0;
     [SerializeField] private Vector3 scale = Vector3.one;
-    [SerializeField] private Vector3 pos = Vector3.right;
+    private Vector3 pos = Vector3.right;
 
     private void Update()
     {
